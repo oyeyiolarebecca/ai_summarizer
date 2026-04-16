@@ -16,7 +16,7 @@
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
+  background: white;
   position: absolute;
   content: "";
   z-index: 2;
@@ -33,7 +33,7 @@
   width: 100%;
   height: 100%;
   top: 0;
-  opacity: 0.4;
+  opacity: 0;
   filter: invert(1);
 }
 
@@ -59,7 +59,7 @@
   height: 100%;
   filter: blur(100px) saturate(150%);
   top: 80px;
-  opacity: 0.15;
+  opacity: 0;
 }
 
 @media screen and (max-width: 640px) {
